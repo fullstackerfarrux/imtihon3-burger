@@ -195,6 +195,6 @@ btnPickle.addEventListener("click", () => {
 
 buyurtma.addEventListener("click", () => {
   let no = document.querySelector(".no");
-  let n = Math.floor(Math.random() * 30) + 1;
+  let n = Math.floor(Math.random() * 35) + 10;
   no.textContent = `${n}`;
 });
